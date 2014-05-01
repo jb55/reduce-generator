@@ -5,7 +5,7 @@
 
   [More useful generators](https://github.com/jb55/generators)
 
-  [![Build Status](https://travis-ci.org/jb55/reduce-generator.png)](https://travis-ci.org/jb55/reduce-generator)
+  [![Build Status](https://travis-ci.org/jb55/reduce-generator.svg)](https://travis-ci.org/jb55/reduce-generator)
 
 ## Installation
 
