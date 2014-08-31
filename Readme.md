@@ -3,6 +3,8 @@
 
   reduce yielded values into a single value
 
+  Deprecated. Use [reduce-iterator](https://github.com/jb55/reduce-iterator) instead.
+
   [More useful generators](https://github.com/jb55/generators)
 
   [![Build Status](https://travis-ci.org/jb55/reduce-generator.svg)](https://travis-ci.org/jb55/reduce-generator)
