@@ -1,13 +1,13 @@
 'use strict';
 
-let isGen = require('is-generator');
+let isGeneratorFunction = require('is-generator-function');
 
 module.exports = reduceGeneratorFn;
 
 function reduceGeneratorFn(gen, reducer, acc){
   let first = true;
   let prev = acc;
-  gen = isGen.fn(gen)? gen() : gen;
+  gen = isGeneratorFunction(gen)? gen() : gen;
 
   for (let x of gen) {
     if (first) {
